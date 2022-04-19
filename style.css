@@ -1,0 +1,169 @@
+* {
+  margin: 0px;
+}
+
+/* .container1{
+  width: 100%;
+  height: 100%;
+  padding-bottom: 4rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background: transparent
+    radial-gradient(closest-side at 50% 50%, #58687e 0%, #39495e 100%) 0% 0%
+    no-repeat padding-box;
+} */
+
+.wrapper {
+  /* width: 1920px;
+    height: 930px; */
+  width: 100%;
+  height: 100%;
+  padding-bottom: 2rem;
+  background: transparent
+    radial-gradient(closest-side at 50% 50%, #58687e 0%, #39495e 100%) 0% 0%
+    no-repeat padding-box;
+  opacity: 1;
+  
+}
+.headr {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin-right: 2rem;
+  margin-left: 1rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: minmax(50px, auto);
+}
+.logoABC {
+  align-self: center;
+  justify-self: start;
+  padding-left: 30%;
+}
+.imageHighRadius {
+  align-self: center;
+  
+  padding-left: 0%;
+}
+
+#predict{
+  border-radius: 10px 0px 0px 10px;
+  width: 3.8cm;
+  border: 2px solid #2196f3;
+  color: white;
+  background-color: #14AFF1;
+  height: 1cm;
+}
+
+#analytics{
+  width: 4cm;
+  color: white;
+  border: 2px solid #2196f3;
+  border-right: none;
+  border-left: none;
+  height: 1cm;
+  border-radius: 0px;
+
+}
+#analytics:hover,
+#analytics:active {
+  background-color: #14AFF1;
+}
+
+#advanced{
+  width: 4.2cm;
+  color: white;
+  border: 2px solid #2196f3;
+  border-right: none;
+  height: 1cm;
+  border-radius: 0px;
+
+}
+#advanced:hover,
+#advanced:active {
+  background-color: #14AFF1;
+}
+#reloading{
+  width: 0.5cm;
+  border: 2px solid #2196f3;
+  color: white;
+  border-radius: 0px 10px 10px 0px;
+  height: 1cm;
+}
+#reloading:hover,
+#reloading:active {
+  background-color: #14AFF1;
+}
+#search{
+
+  padding-left: 40%;
+  padding-right: 40%;
+  width: max-content;
+  background-Color: "#fff";
+  border: "1px solid ";
+  height: "2rem";
+  color: "#273D49";
+  justify-items: center;
+  margin-left: 175% !important;
+
+
+}
+
+#add{
+  border-radius: 10px 0px 0px 10px;
+  width: 3.8cm;
+  border: 2px solid #2196f3;
+  color: white;
+  height: 1cm;
+  
+
+}
+#add:hover,
+#add:active {
+  background-color: #14AFF1;
+}
+#edit{
+  /* padding-left: 40%;
+  padding-right: 40%; */
+  width: 3.8cm;
+  color: white;
+  border: 2px solid #2196f3;
+  border-right: none;
+  border-left: none;
+  height: 1cm;
+  border-radius: 0px;
+}
+#edit:hover,
+#edit:active {
+  background-color: #14AFF1;
+}
+ 
+#delete{
+  /* padding-left: 40%;
+  padding-right: 40%; */
+  width: 3.8cm;
+  border: 2px solid #2196f3;
+  color: white;
+  border-radius: 0px 10px 10px 0px;
+  height: 1cm;
+}
+#delete:hover,
+#delete:active {
+  background-color: #14AFF1;
+}
+
+#button_group{
+  background: transparent
+    radial-gradient(closest-side at 50% 50%, #58687e 0%, #39495e 100%) 0% 0%
+    no-repeat padding-box;
+    flex: 20%;
+    justify-content: space-between;   
+}
+
+#grid{
+  background: transparent
+  radial-gradient(closest-side at 50% 50%, #58687e 0%, #39495e 100%) 0% 0%
+  no-repeat padding-box;
+  color:aliceblue;
+  
+}

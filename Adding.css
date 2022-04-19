@@ -1,0 +1,38 @@
+.adddialog{
+    background-color: #2A3E4C;
+}
+
+.cop{
+text-align: left;
+margin-right: 3vh;
+font-size: 3vh;
+color: #97A1A9;
+display: inline;
+}
+
+.addtext{
+background: #283A46 0% 0% no-repeat padding-box;
+border: 0.2vh solid #356680;
+border-radius: 2vh;
+opacity: 1;
+height: 5vh;
+font-size: calc(0.85vh + 0.95vw );
+}
+
+
+
+#notes{
+background: #283A46 0% 0% no-repeat padding-box;
+border: 0.2vh solid #356680;
+border-radius: 10px;
+opacity: 1;
+
+}
+
+input{
+    display: -webkit-inline-flex;
+}
+
+#clearadd{
+    border: 0.2vh solid #14AFF1;
+}
